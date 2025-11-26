@@ -54,3 +54,16 @@ costo_total = precios_bitcoin * cantidad_comprada
 
 print(f"Costo Total: {costo_total}")
 print(type(costo_total))
+
+
+
+#5. Daily Challenge
+
+#Usa la variable costo_total que acabas de calcular
+
+#Crea una variable mensaje_final que use concatenacion(+) para unir el texto:
+# "El costo final de la compra fue de:" + costo_total + "USD"
+
+#   (Necesitamos usar str() para convertir costo_total antes de concatenarlo).
+
+print("El costo final de la compra fue de: " + str(costo_total) + " USD.")
