@@ -7,7 +7,7 @@ print(total)
 
 # An equivalent while Loop
 #2.
-print(('\nMy name is'))
+print('\nMy name is')
 i=0
 while i<5:
     print('Jimmy Five Times (' + str(i) + ')')
