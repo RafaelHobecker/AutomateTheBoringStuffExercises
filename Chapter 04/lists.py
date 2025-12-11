@@ -40,3 +40,20 @@ print(spam)
 
 spam[-1]=12345
 print(spam)
+
+# List Concatenation and List Replication
+
+new_spam = [1,2,3]+['A','B','C']
+print(new_spam)
+
+triplica_lista = ['X','Y','Z']*3
+print(triplica_lista)
+
+#Removing Values from Lists with del Statements
+numbers = [1,2,3,4,5]
+del numbers[2]
+print(numbers)
+del numbers[2]
+print(numbers)
+
+
