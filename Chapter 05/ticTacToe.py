@@ -58,6 +58,8 @@ for i in range(9):
     if i==8:
         printBoard(theBoard)
         print('It is a draw!!')
+
+    # Cambiar de Turno
     if turn == 'X':
         turn = 'O'
     else:
